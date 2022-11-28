@@ -1,0 +1,32 @@
+.ant-checkbox-group {
+  display: flex;
+  flex-direction: column;
+}
+.ant-checkbox-wrapper {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  margin: 0;
+  margin-inline-start: 0 !important;
+  align-items: center;
+  height: 40px;
+  width: 100%;
+  padding: 0 20px 0 20px;
+  color: #4a4a4a;
+}
+
+.ant-checkbox-wrapper:hover {
+  background: #f1fcff;
+}
+:where(.css-dev-only-do-not-override-1acgqre).ant-checkbox-wrapper
+  + :where(.css-dev-only-do-not-override-1acgqre).ant-checkbox-wrapper {
+  margin-inline-start: 0px;
+}
+:where(.css-dev-only-do-not-override-1acgqre).ant-checkbox {
+  top: 0;
+}
+:where(.css-dev-only-do-not-override-6foo54).ant-checkbox {
+  top: 0;
+}

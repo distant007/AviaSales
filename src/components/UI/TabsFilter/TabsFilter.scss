@@ -1,0 +1,22 @@
+.ant-radio-button-wrapper {
+  height: 50px;
+  width: 168px;
+  text-align: center;
+  padding: 10px;
+}
+.ant-radio-button-wrapper span:last-child {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #4a4a4a;
+}
+.ant-radio-button-checked {
+  background: #2196f3;
+}
+.ant-radio-button-wrapper-checked span:last-child {
+  color: #ffffff;
+}
