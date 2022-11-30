@@ -1,2 +1,2 @@
 # AviaSales
-[AviaSales](https://aviasales-tan.vercel.app/)
+[AviaSales](https://aviasales-ibelyu02-mailru.vercel.app/)
