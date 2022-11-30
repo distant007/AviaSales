@@ -1,9 +1,9 @@
 /* eslint-disable indent */
-import { ALL, CHECKONE, UNSETALL } from './typesActions'
+import { ALL, CHECKONE, UNSETALL } from '../typesActions'
 
 const initialState = {
-  checkbox: [],
-  checkAll: false,
+  checkbox: ['Без пересадок', '1 пересадка', '2 пересадки', '3 пересадки'],
+  checkAll: true,
 }
 export const filterReducer = (state = initialState, action) => {
   switch (action.type) {

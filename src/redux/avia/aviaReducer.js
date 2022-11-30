@@ -1,5 +1,5 @@
 /* eslint-disable indent */
-import { AVIA, ERROR, ID, ADDITEM, DEFAULTITEMS } from './typesActions'
+import { AVIA, ERROR, ID, ADDITEM, DEFAULTITEMS } from '../typesActions'
 const initialState = {
   aviaDate: [],
   error: false,

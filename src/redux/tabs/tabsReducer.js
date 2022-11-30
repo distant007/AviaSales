@@ -1,5 +1,5 @@
 /* eslint-disable indent */
-import { CHIPEST, FASTEST, OPTIMAl } from './typesActions'
+import { CHIPEST, FASTEST, OPTIMAl } from '../typesActions'
 const initialState = {
   date: 'CHIPEST',
 }

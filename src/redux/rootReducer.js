@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux'
 
-import { tabsReducer } from './tabsReducer'
-import { filterReducer } from './filterReducer'
-import { aviaReducer } from './aviaReducer'
+import { tabsReducer } from './tabs/tabsReducer'
+import { filterReducer } from './filter/filterReducer'
+import { aviaReducer } from './avia/aviaReducer'
 export const rootReducer = combineReducers({
   tabsReducer,
   filterReducer,
